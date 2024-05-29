@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Handwritten Digit Recognition using Convolutional Neural Networks (CNN)
 This project demonstrates Handwritten-Digit(0-9)-Recognition using (CNN) Convolutional Neural Networks.
 ## Dataset
@@ -22,3 +23,6 @@ The Streamlit front-end provides a simple and interactive web-based user interfa
 ## Sample Output
 ![full](https://user-images.githubusercontent.com/97530517/232018256-94749378-9d7b-4b33-a0a9-376bd2862392.PNG)
 ![image (1)](https://user-images.githubusercontent.com/97530517/232014753-7cd8a16c-1b42-4a5c-b67b-27998331ef8e.png)
+=======
+# Handwritten-Digit-Recognition
+>>>>>>> 7f82e30efa2e330a5b508ea88874498f484e89d5
