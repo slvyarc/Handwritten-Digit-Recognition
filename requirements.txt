@@ -58,8 +58,7 @@ streamlit-drawable-canvas==0.9.3
 tenacity==8.3.0
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
-tensorflow==2.16.1
-tensorflow-intel==2.16.1
+tensorflow==2.9.0
 termcolor==2.4.0
 toml==0.10.2
 toolz==0.12.1
