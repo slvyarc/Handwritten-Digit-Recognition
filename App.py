@@ -39,24 +39,21 @@ st.markdown(
     .main-title {
         font-size: 2.5em;
         font-weight: bold;
-        color: #39FF14; /* Neon green color */
+        color: #6F26DC; 
         text-align: center;
-        margin-bottom: 0.5em;
-        text-shadow: 2px 2px 5px black;
     }
     .sub-title {
         font-size: 1.2em;
-        color: #39FF14;
+        color: #6F26DC;
         text-align: center;
         margin-bottom: 1em;
-        text-shadow: 2px 2px 5px black;
     }
     .sidebar .sidebar-content {
         background-color: #f8f9fa;
         padding: 20px;
     }
     .stButton button {
-        background-color: #FF1493; /* Neon pink color */
+        background-color: #6F26DC;
         color: white;
         border-radius: 5px;
         font-size: 1em;
@@ -68,7 +65,6 @@ st.markdown(
         align-items: center;
         flex-direction: column;
         margin-top: 20px;
-    
     }
     .sidebar .element-container {
         display: flex;
@@ -77,7 +73,13 @@ st.markdown(
         padding-top: 10px;
     }
     .stSlider > div > div > div > div {
-        background: #39FF14; /* Neon green color */
+        background: #6F26DC; 
+    }
+    .stSlider label {
+    color: #000000; 
+    }
+    .stSlider > div > div > div {
+    color: #000000; /* Change slider number color to white */
     }
     </style>
     """, unsafe_allow_html=True
@@ -115,7 +117,7 @@ if st.button('Predict'):
         img = Image.open("prediction/img.png")
         res, probabilities, processed_img = predictDigit(img)
         
-        st.header('Prediction: ' + str(res))
+        st.markdown(f'<h1 style="color:black;">Prediction: {res}</h1>', unsafe_allow_html=True)
         
         # Visualisasi Gambar Input
         fig, ax = plt.subplots(1, 3, figsize=(15, 5))
