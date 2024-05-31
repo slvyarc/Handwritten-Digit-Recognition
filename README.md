@@ -1,6 +1,6 @@
 # Handwritten Digit Recognition
 
-[![Watch the video](https://img.youtube.com/vi/your-video-id/maxresdefault.jpg)](https://youtu.be/your-video-id)
+![Demo](HandwrittenDigitRecognitionStreamlit-GoogleChrome2024-05-3022-16-09-ezgif.com-speed.gif)
 
 ## Try it Now!
 Check out the live project on Streamlit: [Handwritten Digit Recognition](https://digitrecognitionml.streamlit.app/)
